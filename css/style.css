@@ -1,0 +1,80 @@
+html,body{
+    font-size: 16px;
+    font-family: 'Noto Sans KR','Open Sans', sans-serif;
+    line-height: 1.2;
+}
+
+/* :lang(ko) {font-family:'Noto Sans KR', sans-serif}
+:lang(en) {font-family:'Open Sans', sans-serif} */
+
+/* @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    unicode-range:U+AC00-U+D7A3;
+} */
+
+
+/* table layout */
+.guide-table{
+    display: table;
+}
+.guide-table-caption{
+    display: table-caption;
+}
+.guide-table-colgroup{
+    display: table-column-group;
+}
+.guide-table-col{
+    display: table-column;
+}
+.guide-table-thead{
+    display: table-header-group;
+}
+.guide-table-tfoot{
+    display: table-footer-group;
+}
+.guide-table-tbody{
+    display: table-row-group;
+}
+.guide-table-tr{
+    display: table-row;
+}
+.guide-table-td{
+    display: table-cell;
+}
+
+
+/* table style custom */
+.guide-table{
+    width: 100%;
+    margin: auto;
+    padding: 1%;
+}
+.guide-table-col:nth-child(1){width: 5%;}
+.guide-table-col:nth-child(2){width: 15%;}
+.guide-table-col:nth-child(3){width: 10%;}
+.guide-table-col:nth-child(4){width: 10%;}
+.guide-table-col:nth-child(5){width: 10%;}
+.guide-table-col:nth-child(6){width: 20%;}
+.guide-table-col:nth-child(7){width: 30%;}
+.guide-table-thead{
+    background:#3a4a52;
+    color: #fff;
+}
+.guide-table-tr{}
+.guide-table-td{
+    padding: 10px 5px;
+}
+.guide-table-thead .guide-table-td{
+    text-transform: capitalize;
+}
+.guide-table-tbody .guide-table-td{
+    border-bottom: 1px solid #efefef;
+    color: #405663;
+}
+
